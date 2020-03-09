@@ -1,0 +1,51 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Avenir', Helvetica, Arial, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #2c3e50;
+  margin: 0;
+  background: linear-gradient(to left, #c0c0aa , #1ce);
+  position: relative;
+}
+
+p {
+  margin: 0;
+}
+
+.logo {
+  position: absolute;
+  top: 15px;
+  left: 20px;
+  width: 50px;
+}
+
+.copyrights {
+  position: absolute;
+  bottom: 15px;
+  right: 20px;
+}
+
+.app {
+  padding: 80px 20px;
+  min-height: 100vh;
+}
+
+.app-container {
+  width: 450px;
+  max-width: 100%;
+  margin: 20px auto 20px;
+  background: #fff;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.15);
+}
+
+
+@import "utilities";
+@import "header";
+@import "list";
+
